@@ -1,0 +1,6 @@
+Flask
+matplotlib
+requests
+pandas
+yfinance
+requests
