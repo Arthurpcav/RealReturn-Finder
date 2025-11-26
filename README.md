@@ -20,7 +20,7 @@ O sistema exibe um gráfico comparando **o valor acumulado do investimento** com
 
 ### 🚀 Como Executar
 
-Siga os 4 passos abaixo para configurar e rodar o projeto.
+Siga os 3 passos abaixo para configurar e rodar o projeto.
 
 #### **1. Clone o Repositório**
 Abra seu terminal, navegue até o diretório onde deseja salvar o projeto e execute o comando:
@@ -41,4 +41,4 @@ cd RealReturn-Finder
     python app.py
     ```
 -   Abra seu navegador e acesse o endereço abaixo para ver a aplicação funcionando:
-    > **[http://127.0.0.1:5001](http://127.0.0.1:5001)**
+    > **[http://127.0.0.1:5001](http://127.0.0.1:5002)**
