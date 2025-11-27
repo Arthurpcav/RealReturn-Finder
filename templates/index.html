@@ -78,12 +78,15 @@
     </div>
 
     <script>
-        // Feedback visual simples no botão
+        //seleciona os elementos HTML para manipulação de estado
         const btn = document.getElementById('analyze-btn');
         const form = document.querySelector('form');
+        // --- Feedback de Carregamento ---
+        //intercepta o envio do formulário para dar feedback imediato ao usuário,
+        //pois consultas ao BC e Yahoo Finance podem ter latência
         form.addEventListener('submit', () => {
             btn.innerText = 'Processando dados do BC e Bolsa...';
-            btn.style.opacity = '0.7';
+            btn.style.opacity = '0.7'; //indica visualmente que o botão está desabilitado/ocupado
         });
     </script>
 </body>
